@@ -66,14 +66,14 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="" alt="">
+            <img class="img-fluid" src="images\Cours.PNG" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
             <h2 class="display-4">Get All Courses </h2>
             <p> Use this only when you want to get a list of all the courses in our database.
-            </p>
+            endpoint: https://onlc-api.herokuapp.com/courses </p>
           </div>
         </div>
       </div>
@@ -85,14 +85,17 @@
       <div class="row align-items-center">
         <div class="col-lg-6">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="" alt="">
+            <img class="img-fluid" src="images\Cat.PNG" alt="">
           </div>
         </div>
         <div class="col-lg-6">
           <div class="p-5">
             <h2 class="display-4">Get Courses by Category</h2>
             <p> Use this to get courses by Category. Categories are very
-              specific, and also replace spaces with "%20" in your get request</p>
+              specific, and also replace spaces with "%20" in your get request
+              endpoint: https://onlc-api.herokuapp.com/courses/'category'
+              example: https://onlc-api.herokuapp.com/courses/Business
+            </p>
           </div>
         </div>
       </div>
@@ -104,15 +107,17 @@
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-2">
           <div class="p-5">
-            <img class="img-fluid rounded-circle" src="" alt="">
+            <img class="img-fluid" src="images\mor.PNG" alt="">
           </div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
             <h2 class="display-4">More detailed query</h2>
-            <p>Use this, if you would like to be more specific in your query.
+            <p class="posi">Use this, if you would like to be more specific in your query.
               Options include Platform, Category and Level. Remember to replace
-              spaces with "%20" in your get request
+              spaces with "%20" in your get request.
+              endpoint: https://onlc-api.herokuapp.com/courses/'platform'/'category'/'level'
+              example: https://onlc-api.herokuapp.com/courses/Coursera/Business/All%20Levels
             </p>
           </div>
         </div>

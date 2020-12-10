@@ -134,6 +134,10 @@ h6 {
   text-align: center;
 }
 
+.posi{
+ word-wrap: break-word;
+}
+
 
 @media (min-width: 992px) {
   .masthead {
