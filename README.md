@@ -10,10 +10,6 @@ Node JS/MongoDB - Backend
 
 HTML/CSS/Javascript - Frontend
 
-To add new courses to the database
-
-<img src="screen-captureapi.gif" width="900" height="500"/>
-
 To access the api
 
 <img src="apicapture.gif" width="900" height="500"/>
