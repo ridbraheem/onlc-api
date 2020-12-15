@@ -4,7 +4,7 @@ ONLC API is A free REST API for online courses across different platforms. You c
 
 https://onlc-api.herokuapp.com/
 
-! [] (screen-captureapi.gif)
+![] (screen-captureapi.gif)
 
 Stack:
 
